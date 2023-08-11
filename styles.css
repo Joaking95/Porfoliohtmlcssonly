@@ -145,9 +145,12 @@ h4{
   font-weight: bold;
   padding-bottom: 20px;
 }
-p{
+.acontent p{
   color: white;
   padding-bottom: 20px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  text-align: justify;
 }
 button{
   padding: 10px 30px;
@@ -155,6 +158,7 @@ button{
   outline: none;
   border-radius: 30px;
   background-color: red;
+  transition: .4s
 }
 button:hover{
   background-color: transparent;
@@ -162,4 +166,59 @@ button:hover{
   border-radius: 30px;
   border: 2px white solid;
   cursor: pointer;
+}
+.service{
+  width: 100%;
+  background-color: black;
+  padding: 100px 0;
+}
+.service h1{
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 75px;
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+.box{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card{
+  background-color: #191919;
+  height: 365;
+  width:335 ;
+  margin:15px;
+  padding: 20px 35px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.card h4{
+  color:white;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.card p{
+  color:white;
+  margin: 10px 0;
+  font-size: 18px;
+  text-align: justify;
+}
+.read-more{
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background-color: red;
+  transition: .4s;
+  margin:10px 0;
 }
