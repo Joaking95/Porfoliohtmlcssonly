@@ -110,3 +110,56 @@ h4{
   right: 6px;
   position: absolute;
 }
+.about{
+  background-color: black;
+  padding: 100px 0;
+  width: 100%;
+}
+.about img{
+  height: auto;
+  width: 430px;
+}
+.acontent{
+  width: 550px;
+}
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;align-items: center;
+  justify-content: space-around;
+}
+.acontent h1{
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 75px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.acontent h4{
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+p{
+  color: white;
+  padding-bottom: 20px;
+}
+button{
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background-color: red;
+}
+button:hover{
+  background-color: transparent;
+  color: white;
+  border-radius: 30px;
+  border: 2px white solid;
+  cursor: pointer;
+}
