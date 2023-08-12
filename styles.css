@@ -221,4 +221,86 @@ button:hover{
   background-color: red;
   transition: .4s;
   margin:10px 0;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: white;
+}
+.card i{
+  font-size: 50px;
+  color: white;
+  display: block;
+  text-align: center;
+  margin: 25px 0;
+}
+.section3{
+  background:#191919;
+  width: 100%;
+  padding: 100px 0;
+  flex-direction: column;
+  align-items: center;
+  height: 290px;
+  justify-content: center;
+  display: flex;
+}
+
+.section3 h2{
+  color: white;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  text-transform: capitalize;
+}
+.section3 a {
+  padding: 10px 30px;
+  border: 1px solid white;
+  outline: none;
+  border-radius: 30px;
+  background-color: red;
+  transition: .4s;
+  margin-top: 30px;
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.section3 a:hover{
+  padding: 10px 30px;
+  border: 1px solid white;
+  outline: none;
+  border-radius: 30px;
+  background-color: transparent;
+}
+footer{
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  justify-content: center;
+  display: flex;
+  background: black;
+  position: relative;
+}
+footer p:nth-child(1){
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.p2footer{
+  color: white;
+  font-size: 17px;
+  width: 500px;
+  text-align: center;
+  line-height: 26px;
+}
+.p3footer{
+  position: absolute;
+  bottom: 35px;
+  font-size: 14px;
+  color:#f9004d;
+}
+.icon-res{
+  color: white;
 }
